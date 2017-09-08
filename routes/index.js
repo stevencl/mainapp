@@ -10,3 +10,8 @@ router.get('/', function(req, res, next) {
 
 
 module.exports = router;
+
+function uncalledFunction() {
+  var f = Math.floor((Math.random() * 100) + 1);
+  return f;
+}

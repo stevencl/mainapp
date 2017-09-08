@@ -58,3 +58,8 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
+
+
+function randomFunction() {
+  var f = Math.floor((Math.random() * 10) + 1);
+}

@@ -1,3 +1,5 @@
 {
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "editor.minimap.enabled": true,
+    "workbench.activityBar.visible": true
 }
