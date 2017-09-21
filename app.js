@@ -29,7 +29,7 @@ app.use('/users', users);
 app.use(function(req, res, next) {  
   var err = new Error('Not Found');
   err.status = 404;
-  next(err);;
+  next(err);
 });
 
 // error handlers
@@ -58,8 +58,3 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
-
-
-function randomFunction() {
-  var f = Math.floor((Math.random() * 10) + 1);
-}
